@@ -32,7 +32,7 @@
     letter-spacing: 0.02em;
     text-align: left;
 }
-.header-link:hover {
+.header-link:active {
     color: #404BBF;
 }
 
@@ -73,6 +73,10 @@
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
+}
+.hero-btn:hover {
+    color: #FFFFFF;
+    background-color:#404BBF;
 }
  
 .advantages-item-title {
