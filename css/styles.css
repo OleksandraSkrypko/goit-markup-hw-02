@@ -31,6 +31,10 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+}
+.header-link:hover {
+    color: #404BBF;
+}
 
 .header-contacts-info {
     color: #434455;
