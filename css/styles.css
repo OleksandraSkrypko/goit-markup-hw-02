@@ -175,6 +175,7 @@ color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.studio{ color: #f4f4fd;}
 .link {
     text-decoration: none;
 }
@@ -231,12 +232,15 @@ color: #4D5AE5;
 .link {
     text-decoration: none;
 }
+.services-item {
+    text-decoration: none;
+}
 
 .services-item-title {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.2em;
     letter-spacing: 0.02em;
     
 }
