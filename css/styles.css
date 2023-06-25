@@ -40,8 +40,8 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--#2E2F42);
     text-decoration: none;
+    color: var(--#2e2f42);
 }
 
 .link:hover,
@@ -77,7 +77,7 @@
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07em;
         letter-spacing: 0.02em;
         text-align: center;
 
@@ -95,9 +95,11 @@
     cursor: pointer;
 }
 
+.hero-btn:hover{background-color: #404BBF;}
 .hero-btn:focus {
 background-color:#404BBF;
 }
+
  
 .advantages-item-title {
     color: #2E2F42;
@@ -131,35 +133,39 @@ background-color:#404BBF;
 }
 
 
-
+.section-team {
+    background-color: #F4F4FD;
+}
 .team-title {
-    color: #2E2F42;
-    font-family: Roboto;
+
     font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--#2e2f42);
+}
+
+.team-list {
+background-color: #FFFFFF;
+    list-style: none;
 }
 
 .team-item-title {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
+
     font-weight: 500;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: var(--#2e2f42);
 }
 
 .team-text {
-    color: #434455;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: center;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--#434455);
 }
 
 .footer {
@@ -174,6 +180,7 @@ color: #4D5AE5;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .link {
     text-decoration: none;
@@ -262,6 +269,7 @@ color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--#4d5ae5);
+    text-decoration: none;
 }
 .portfolio-studio{
     color: #f4f4fd;
