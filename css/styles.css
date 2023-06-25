@@ -1,12 +1,12 @@
 
 :root {
-    font-family: 'Raleway','Roboto', sans-serif;
-    
+    --main-color: #FFFFFF;
 }
 
-.body {
+.page {
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color:#FFFFFF;
+    background-color: var(--main-color);
 }
 
 .header-logo {
@@ -40,7 +40,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--#2E2F42);
     text-decoration: none;
 }
 
@@ -199,7 +199,10 @@ color: #4D5AE5;
 .list {
     list-style: none;
 }
-
+.body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+}
 .portfolio-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -208,7 +211,7 @@ color: #4D5AE5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #4D5AE5;
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
 }
 
 .portfolio-btn:hover {
@@ -237,7 +240,7 @@ color: #4D5AE5;
 .services-text {
 
     color: #434455;
-    
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
