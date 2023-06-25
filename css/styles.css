@@ -175,6 +175,9 @@ color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.link {
+    text-decoration: none;
+}
 
 .footer-studio {
     color: #f4f4fd;
@@ -196,6 +199,7 @@ color: #4D5AE5;
     letter-spacing: 0.02em;
     text-align: left;
 }
+.footer-logo link {text-decoration: none}
 .list {
     list-style: none;
 }
