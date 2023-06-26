@@ -249,9 +249,8 @@ color: #4D5AE5;
     text-decoration: none;
 }
 
-.services-item a.link {
-    display: block;
-}
+
+
 
 .services-item img {
     width: 360px;
@@ -270,7 +269,7 @@ color: #4D5AE5;
 .services-text {
 
 
-    
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
